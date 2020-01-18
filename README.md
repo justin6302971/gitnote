@@ -48,3 +48,26 @@ git commit -m '<msg>'
 ```
 	git subtree push --prefix dist origin gh-pages
 ```
+
+
+### Branch
+
+``` bash 
+# list branches
+git branch
+
+# create new branch call feature/test
+git branch feature/test
+
+# check which branch you are in 
+git status 
+
+# switch to feature/test
+git checkout feature/test
+
+# adding : to delete remote branch
+git push origin :feature/branch
+
+# delete local branch
+git branch -d feature/branch
+```
