@@ -65,6 +65,8 @@ git status
 # switch to feature/test
 git checkout feature/test
 
+git merge
+
 # adding : to delete remote branch
 git push origin :feature/branch
 
